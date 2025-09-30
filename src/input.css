@@ -18,4 +18,20 @@
     .util-tech {
         @apply tw-text-2xs tw-text-white tw-bg-black tw-rounded-md tw-px-1.5 tw-py-1;
     }
+    
+    .util-timeline {
+        @apply tw-relative;
+    }
+    
+    .util-timeline::after {
+        @apply tw-content-[''] tw-size-2 tw-rounded-full tw-border-2 tw-border-black tw-bg-white tw-absolute -tw-left-1.5 tw-top-3.5;
+    }
+    
+    .util-timeline-active::after {
+        @apply tw-border-lime-600;
+    }
+    
+    .util-timeline-inactive::after {
+        @apply tw-border-gray-400;
+    }
 }
