@@ -1,0 +1,23 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i ./src/input.css -o ./src/index.css --minify",
+        "dev": "tailwindcss -i ./src/input.css -o ./src/index.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.17"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/martin640/portfolio.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/martin640/portfolio/issues"
+    },
+    "homepage": "https://github.com/martin640/portfolio#readme",
+    "description": ""
+}

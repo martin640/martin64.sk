@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .util-link {
+        @apply tw-text-link tw-fill-link tw-underline;
+    }
+    
+    .util-link-discreet {
+        @apply tw-transition-colors hover:tw-text-link hover:tw-fill-link;
+    }
+    
+    .util-stack {
+        @apply tw-flex tw-gap-1 tw-flex-wrap;
+    }
+    
+    .util-tech {
+        @apply tw-text-2xs tw-text-white tw-bg-black tw-rounded-md tw-px-1.5 tw-py-1;
+    }
+}
