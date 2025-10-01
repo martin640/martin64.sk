@@ -20,11 +20,11 @@
     }
     
     .util-timeline {
-        @apply tw-relative;
+        @apply tw-relative tw-border-l-2 tw-pl-4 tw-pt-2 tw-pb-4;
     }
     
     .util-timeline::after {
-        @apply tw-content-[''] tw-size-2 tw-rounded-full tw-border-2 tw-border-black tw-bg-white tw-absolute -tw-left-1.5 tw-top-3.5;
+        @apply tw-content-[''] tw-size-2 tw-rounded-full tw-border-2 tw-border-black tw-bg-white tw-absolute -tw-left-[5px] tw-top-3;
     }
     
     .util-timeline-active::after {
