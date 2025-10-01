@@ -31,7 +31,7 @@
                             <div class="util-tech tw-bg-brand-rust">Rust</div>
                         </div>
                     </div>
-                    <div class="tw-flex tw-gap-2 tw-items-center tw-leading-none">
+                    <div class="tw-flex tw-gap-2 tw-items-center tw-leading-none tw-mt-4">
                         <a class="tw-shrink-0 tw-transition-colors tw-fill-black tw-cursor-pointer tw-p-1 hover:tw-fill-sky-400" href="https://github.com/martin640" aria-label="Social link - Github" rel="noreferrer noopener noindex nofollow" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" class="tw-w-6 tw-h-6" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"></path>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tw-p-6 lg:tw-grow">
+            <div class="tw-p-6 lg:tw-grow tw-group/body">
                 <h2 class="tw-font-bold tw-text-lg tw-leading-none tw-pb-4">Work experience</h2>
                 <div class="tw-flex tw-flex-col tw-leading-none">
                     <article class="tw-border-lime-600 util-timeline util-timeline-active">
@@ -87,26 +87,58 @@
                             <div class="util-tech tw-bg-brand-typescript">Typescript</div>
                         </div>
                     </article>
-                    <article class="tw-border-gray-400 util-timeline util-timeline-inactive">
-                        <div class="tw-pb-2 tw-text-gray-500 tw-text-xs">2022 - 2023 (abandoned)</div>
-                        <div class="tw-font-semibold"><a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://gitlab.com/martin640/spotify_time_tracker" target="_blank" rel="nofollow"><span>spotify_time_tracker</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
-                        <div class="tw-pt-1 tw-text-gray-500 tw-text-xs">Service syncing Spotify listening history into a mysql database</div>
-                        <div class="tw-pt-2 util-stack">
-                            <div class="util-tech tw-bg-brand-typescript">Typescript</div>
+                </div>
+                <div class="tw-pt-4 tw-flex tw-justify-center tw-select-none">
+                    <a class="util-link-discreet tw-flex tw-items-center tw-gap-2" href="#" onclick="event.preventDefault(); document.getElementsByClassName('tw-group/body')[0].classList.toggle('body-expanded'); return false;">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="tw-size-6 tw-shrink-0 tw-transition-transform group-[.body-expanded]/body:tw-rotate-180" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+                        <span>view more</span>
+                    </a>
+                </div>
+                <div class="tw-flex tw-flex-col tw-max-h-0 tw-transition-all tw-overflow-hidden group-[.body-expanded]/body:tw-overflow-visible group-[.body-expanded]/body:tw-max-h-[--var-content-height]">
+                    <div class="tw-flex tw-flex-col tw-opacity-0 group-[.body-expanded]/body:tw-opacity-100">
+                        <h2 class="tw-font-bold tw-text-lg tw-leading-none tw-pb-4 tw-mt-8">Older projects</h2>
+                        <div class="tw-grid tw-grid-cols-2 tw-gap-2 tw-leading-none">
+                            <article class="tw-border tw-border-gray-200 tw-rounded-xl tw-p-4">
+                                <div class="tw-pb-2 tw-text-gray-500 tw-text-xs">2022 - 2023</div>
+                                <div class="tw-font-semibold"><a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://gitlab.com/martin640/spotify_time_tracker" target="_blank" rel="nofollow"><span>spotify_time_tracker</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
+                                <div class="tw-pt-2 tw-text-gray-500 tw-text-xs">Service syncing Spotify listening history into a mysql database</div>
+                                <div class="tw-pt-4 util-stack">
+                                    <div class="util-tech tw-bg-brand-typescript">Typescript</div>
+                                </div>
+                            </article>
+                            <article class="tw-border tw-border-gray-200 tw-rounded-xl tw-p-4">
+                                <div class="tw-pb-2 tw-text-gray-500 tw-text-xs">2022</div>
+                                <div class="tw-font-semibold"><a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://gitlab.com/martin640/sos-kiosk" target="_blank" rel="nofollow"><span>sos-kiosk</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
+                                <div class="tw-pt-2 tw-text-gray-500 tw-text-xs">Kiosk application for my high school</div>
+                                <div class="tw-pt-4 util-stack">
+                                    <div class="util-tech tw-bg-brand-electron">Electron.js</div>
+                                    <div class="util-tech tw-bg-brand-react tw-text-black">React.js</div>
+                                </div>
+                            </article>
+                            <article class="tw-border tw-border-gray-200 tw-rounded-xl tw-p-4">
+                                <div class="tw-pb-2 tw-text-gray-500 tw-text-xs">2018</div>
+                                <div class="tw-font-semibold"><a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://github.com/martin640/Sketchware-Tools" target="_blank" rel="nofollow"><span>Sketchware-Tools</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
+                                <div class="tw-pt-2 tw-text-gray-500 tw-text-xs">Android app with few tools for Sketchware (Scratch-like app for building android apps)</div>
+                                <div class="tw-pt-4 util-stack">
+                                    <div class="util-tech tw-bg-brand-java">Java</div>
+                                    <div class="util-tech tw-bg-brand-android">Android</div>
+                                </div>
+                            </article>
                         </div>
-                    </article>
-                    <article class="tw-border-gray-400 util-timeline util-timeline-inactive">
-                        <div class="tw-pb-2 tw-text-gray-500 tw-text-xs">2022 (abandoned)</div>
-                        <div class="tw-font-semibold"><a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://gitlab.com/martin640/sos-kiosk" target="_blank" rel="nofollow"><span>sos-kiosk</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
-                        <div class="tw-pt-1 tw-text-gray-500 tw-text-xs">Kiosk application for my high school</div>
-                        <div class="tw-pt-2 util-stack">
-                            <div class="util-tech tw-bg-brand-electron">Electron.js</div>
-                            <div class="util-tech tw-bg-brand-react tw-text-black">React.js</div>
-                        </div>
-                    </article>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="tw-text-xs tw-pt-2 tw-px-6 tw-pb-6 lg:tw-pb-0 tw-font-mono tw-text-neutral-500">(C) Martin Matejov 2025 | <a class="util-link-discreet" href="https://github.com/martin640/martin64.sk/blob/main/LICENSE" rel="nofollow">License</a> | <a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://github.com/martin640/martin64.sk" target="_blank" rel="nofollow"><span>Source code on GitHub</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
+        <div class="tw-text-xs tw-pt-2 tw-px-6 tw-pb-6 lg:tw-pb-0 tw-font-mono tw-text-neutral-500 tw-leading-relaxed">(C) Martin Matejov 2025 | <a class="util-link-discreet" href="https://github.com/martin640/martin64.sk/blob/main/LICENSE" rel="nofollow">License</a> | <a class="util-link-discreet util-external tw-inline-flex tw-items-center tw-gap-1" href="https://github.com/martin640/martin64.sk" target="_blank" rel="nofollow"><span>Source code on GitHub</span><svg class="tw-size-2.5 tw-flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7"><path d="M1.04261 6.80966L0.377841 6.14489L5.32102 1.19318H1.50284L1.51136 0.272727H6.90625V5.67614H5.97727L5.9858 1.85795L1.04261 6.80966Z" fill="currentColor"/></svg></a></div>
+        <script>
+            window.addEventListener('load', () => {
+                const x = document.getElementsByClassName('group-[.body-expanded]/body:tw-max-h-[--var-content-height]')[0]
+                x.setAttribute('style', `--var-content-height: ${x.scrollHeight}`)
+                const resizeObserver = new ResizeObserver(() => {
+                    x.setAttribute('style', `--var-content-height: ${x.scrollHeight}`)
+                })
+                resizeObserver.observe(x)
+            })
+        </script>
     </body>
 </html>

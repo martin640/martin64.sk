@@ -4,11 +4,11 @@
 
 @layer components {
     .util-link {
-        @apply tw-text-link tw-fill-link tw-underline;
+        @apply tw-text-link tw-fill-link tw-underline tw-cursor-pointer;
     }
     
     .util-link-discreet {
-        @apply tw-transition-colors hover:tw-text-link hover:tw-fill-link;
+        @apply tw-transition-colors hover:tw-text-link hover:tw-fill-link tw-cursor-pointer;
     }
     
     .util-stack {

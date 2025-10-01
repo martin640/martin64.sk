@@ -15,6 +15,8 @@ module.exports = {
 				'brand-electron': '#272A37',
 				'brand-react': '#61DBFB',
 				'brand-tailwind': '#00BCFF',
+				'brand-java': '#007396',
+				'brand-android': '#32DE84',
 				'link': '#00A6F4'
 			},
 			fontSize: {
